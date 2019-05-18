@@ -10,6 +10,14 @@ package Modelos;
  * @author laboratorio
  */
 public class Persona {
+    
+    
+        private int cedula;
+    private String nombre;
+    private String apellido;
+    private String genero;
+    private int telefono;
+    private String email;
 
     public Persona(int cedula, String nombre, String genero, int telefono, String email) {
         this.cedula = cedula;
@@ -67,13 +75,8 @@ public class Persona {
         this.email = email;
     }
     
-    private int cedula;
-    private String nombre;
-    private String apellido;
-    private String genero;
-    private int telefono;
-    private String email;
-
+    
+    
     public Persona() {
     }
     
